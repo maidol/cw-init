@@ -54,7 +54,8 @@
   "bugs": "https://github.com/maidol/cw-init/issues",
   "keywords": [
     "cw",
-    "cw-init"
+    "cw-init",
+    "egg"
   ],
   "ci": {
     "version": "4, 6, 7"
