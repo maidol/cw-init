@@ -3,7 +3,7 @@
 'use strict';
 
 const co = require('co');
-const Command = require('../lib/init_cw_command');
+const Command = require('..');
 
 co(function* () {
   yield new Command().run(process.cwd(), process.argv.slice(2));
